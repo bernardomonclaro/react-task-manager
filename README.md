@@ -22,3 +22,18 @@ Um aplicativo simples de lista de tarefas (todo list) feito com React. Permite a
 - JSON Server (backend fake)
 - Fetch API para comunicação com backend
 - CSS moderno com gradiente e estilo minimalista
+
+
+## Para rodar o projeto
+
+Se não tiver o json-server instalado globalmente, rode:
+
+`npm install -g json-server`
+
+Depois execute o servidor:
+
+`json-server --watch data/db.json --port 5000`
+
+Em outro terminal, rode:
+
+`npm start`
